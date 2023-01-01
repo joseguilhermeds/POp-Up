@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <button class="btOpenModal" onclick="openmodal()">Open Modal</button>
+    
+    <div class="modal-containers">
+        <div class="modal">
+           <h2>Info</h2>
+           <hr/>
+           <span>
+              Promoção está esgotada.
+           </span>
+           <hr/>
+           <div class="btns">
+                <button class="btnOK" onclick="closemodal()">OK</button>
+                <button class="btnClose" onclick="closemodal()">Close</button>   
+           
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>  
+    
+</body>
+</html>
